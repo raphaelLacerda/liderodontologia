@@ -30,7 +30,8 @@ body a:hover{
 /*-- header --*/ 
 .header{
 	padding:2em 0;
-	background:#4cc2c4;
+	/*background:#4cc2c4;*/
+    background: #e67817;
 }
 .logo{
 	float:left;
@@ -39,7 +40,7 @@ body a:hover{
 	color: #fff;
 	font-size: 2.5em;
 	text-decoration: none;
-	background: url(../images/logo-icon.png) no-repeat 0px 0px;
+	background: url(../images/logo-icon.png) no-repeat 0px 0px ;
 	display: block;
 	padding: 0.4em 0 0 1.7em;
 	font-weight: 600;
@@ -120,15 +121,57 @@ body a:hover{
   background-color:#f54785;
   padding: 12px 29px;
 }
+
+.header-bottom-right ul li.mail{
+	padding:22px 60px 22px 0;
+}
+
+
+
+/*Tem como herdar este comportamento?*/
+
+.header-bottom-left{
+	float:left;
+}
+.header-bottom-left ul{
+	padding:0;
+	margin:0;
+}
+.header-bottom-left ul li{
+	display:inline-block;
+	padding:0;
+	float: left;
+}
+.header-bottom-left ul li{
+	font-size:16px;
+	color:#fff;
+}
+.header-bottom-left ul li a{
+	color:#999;
+}
+.header-bottom-left ul li.num {
+  font-size: 30px;
+  background-color:#f54785;
+  padding: 12px 29px;
+}
+
+.header-bottom-left ul li.mail{
+	padding:22px 60px 22px 0;
+}
+
+
+
+
 li.phone span{
 	background: url(../images/1.png) no-repeat 20px 24px #000;
 	display: block;
 	width: 55px;
 	height: 66px;
 }
-.header-bottom-right ul li.mail{
-	padding:22px 60px 22px 0;
-}
+
+
+
+
 li.mail a:hover {
   text-decoration: none;
   color: #F54785;
@@ -180,7 +223,7 @@ li.mail a:hover {
 .banner-info{
 	margin:10em 0 0;
 	padding: 2em;
-	background:rgba(76, 194, 196, 0.81);
+	background:#e67817;
 	width: 60%;
 }
 .banner-info h1{
@@ -526,7 +569,7 @@ ul.social-slide li i.mac{
 	line-height: 1.8em;
 }
 .banner-bottom-grid-right-grid{
-	background:rgba(76, 194, 196, 0.81);
+	background:#e67817;
 	padding:2em;
 }
 .banner-bottom-grid-right-grid input[type="text"],.banner-bottom-grid-right-grid input[type="email"]{
@@ -1149,7 +1192,7 @@ ul.social-slide li i.mac{
 .soluta span{
 	display:block;
 	margin:1em 0;
-	color:#4CC2C4;
+	color:#e67817;
 	font-size:12px;
 }
 .blog-grid1 p{
@@ -1164,7 +1207,7 @@ ul.social-slide li i.mac{
 }
 .red-mre a{
 	border: none;
-	color:#4CC2C4;
+	color:#e67817;
 	font-size: 15px;
 	text-decoration: none;
 }
@@ -1199,7 +1242,7 @@ ul.sint {
 	font-size:18px;
 	}
 .single-right h3{
-	color:#4CC2C4;
+	color:#e67817;
 	margin:0 0 1em;
 	font-size:20px;
 	}
@@ -1342,7 +1385,7 @@ ul.sint {
 	width:80%;
 	}
 .tom-right h4{
-	color:#4CC2C4;
+	color:#e67817;
 	font-size:18px;
 	font-weight:600;
 	font-style: normal;
@@ -1385,7 +1428,7 @@ ul.sint {
 .reply a:hover{
 	color:#fff;
 	text-decoration:none;
-	background-color:#4CC2C4;
+	background-color:#e67817;
 	}
 .tom-grid:nth-child(4){
 	border-bottom:none;
@@ -1454,7 +1497,7 @@ ul.sint {
 	}
 /*--------social simptip--------*/
 .top-social-icons a:hover{
-	background:#4CC2C4;
+	background:#e67817;
 	color:#fff;
 	text-decoration:none;
 	}
