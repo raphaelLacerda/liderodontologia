@@ -29,7 +29,7 @@ body a:hover{
 }
 /*-- header --*/ 
 .header{
-	padding:2em 0;
+	padding:0.4em 0;
 	/*background:#4cc2c4;*/
     background: #e67817;
 }
@@ -43,9 +43,10 @@ body a:hover{
 	background: url(../images/logo-elias.png) no-repeat 0px 0px ;
     /*background: url(../images/logo-icon.png) no-repeat 0px 0px ;*/
 	display: block;
-	padding: 0.4em 0 0 1.7em;
+	padding: 0.9em 0 0 3.7em;
 	font-weight: 600;
 	font-family:Comfortaa-Regular;
+	height: 128px;
 }
 .logo a:hover{
 	color:#fff;
@@ -58,7 +59,7 @@ body a:hover{
   color: #FD4E4E;
 }
 .header-icons ul{
-	padding:0.5em 0 0;
+	padding:2.4em 0 0;
 	margin:0;
 }
 .header-icons ul li{
